@@ -1,10 +1,10 @@
-RGBcolour conHSB = new ConvertHSB(PI/3, 0.4, 0.5);
+RGBcolour c = new RGBcolour(PI/3, 0.4, 0.5);
 int newRed, newGreen, newBlue;
 void setup() {
   size(200, 200);
-  newRed = conHSB.redValue();
-  newGreen = conHSB.greenValue();
-  newBlue = conHSB.blueValue();
+  newRed = c.redValue();
+  newGreen = c.greenValue();
+  newBlue = c.blueValue();
 }
 
 void draw() {
